@@ -27,22 +27,25 @@
     <h1>
         <p>Displayed below is my CARP task, </p>
     </h1>
-    <div class="slider">
-        <div class="images">
-            <input type="radio" name="slide" id="img1">
-            <input type="radio" name="slide" id="img2">
-            <input type="radio" name="slide" id="img3">
-
-            <img src="a3 poster 1.png" class="m1" alt="img1">
-            <img src="A3 poster redesign 2.png" class="m2" alt="img2">
-            <img src="a3 poster 3.png" class="m3" alt="img3">
+    <div id="slideshow-container">
+        <div class="slides">
+          <div id="slide1" class="slide">
+            <img src="a3 poster 1.png" alt="Slide 1">
+          </div>
+          <div id="slide2" class="slide">
+            <img src="A3 poster redesign 2.png" alt="Slide 2">
+          </div>
+          <div id="slide3" class="slide">
+            <img src="a3 poster 3.png" alt="Slide 3">
+          </div>
         </div>
-        <div class="dots">
-            <label for="img1"></label>
-            <label for="img2"></label>
-            <label for="img3"></label>
+        <div class="nav">
+          <a href="#slide1">1</a>
+          <a href="#slide2">2</a>
+          <a href="#slide3">3</a>
         </div>
-    </div>
+      </div>
+      
 </body>
 
 </html>
