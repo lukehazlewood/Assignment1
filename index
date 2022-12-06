@@ -7,13 +7,18 @@
         <title>index</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="csssheet">
+        <link rel="stylesheet" href="csssheet.css">
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="" async defer></script>
+    <header>
+        <img class="logo" src="uwe logo.png" alt="UWE Bristol logo">
+        <nav>
+            <ul class="nav__links">
+               <li><a href="#">Carp Task</a></li>
+               <li><a href="#">Typography Task</a></li> 
+               <li><a href="#">Website Task</a></li>  
+            </ul>
+        </nav>
+    </header>   
     </body>
 </html>
