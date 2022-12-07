@@ -196,3 +196,15 @@ justify-content: space-around;
         clear: both;
         display: table;
 }
+
+.gallery {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.divgallery::after {
+        content: "";
+        clear: both;
+        display: table;
+}
