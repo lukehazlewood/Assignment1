@@ -184,3 +184,15 @@ justify-content: space-around;
 .flexbox-item-3 {
     min-height: 300px;
 }
+
+.posters {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.divposters::after {
+        content: "";
+        clear: both;
+        display: table;
+}
