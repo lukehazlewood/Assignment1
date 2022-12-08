@@ -221,7 +221,8 @@ justify-content: space-around;
 
 
 footer{
-    background-color: whitesmoke;
+    background-color: grey;
+    fill: grey;
     height: 30px;
     text-align: center;
     font-family: "lato", sans-serif;
